@@ -1,6 +1,8 @@
+const env = require(".env");
+
 module.exports = {
     app: {
-        token: '',
+        token: env.token,
         playing: 'OPA BÃO',
         global: true,
     },
