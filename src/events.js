@@ -49,7 +49,7 @@ player.on('trackAdd', (queue, track) => {
 });
 
 player.on('botDisconnect', (queue) => {
-    queue.metadata.send('Tive que sai, mais deixei se preucupa não que o pai volta');
+    queue.metadata.send('Tive que sai, mais se preucupa não que o pai volta');
 });
 
 player.on('channelEmpty', (queue) => {

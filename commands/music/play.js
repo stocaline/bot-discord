@@ -27,7 +27,6 @@ module.exports = {
             metadata: inter.channel,
             spotifyBridge: client.config.opt.spotifyBridge,
             initialVolume: client.config.opt.defaultvolume,
-            leaveOnEnd: client.config.opt.leaveOnEnd
         });
 
         try {
@@ -37,7 +36,7 @@ module.exports = {
             return inter.editReply({ content: `Não consegui entrar no canal ${inter.member}... quer tentar dnv ?`, ephemeral: true});
         }
 
-       await inter.editReply({ content:`Carregando sua ${res.playlist ? 'playlist' : 'track'}... 🎧`});
+       await inter.editReply({ content:`Carregando sua ${res.playlist ? 'playlist' : 'track'}...`});
 
         res.playlist ? queue.addTracks(res.tracks) : queue.addTrack(res.tracks[0]);
 
