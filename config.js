@@ -1,6 +1,6 @@
 module.exports = {
     app: {
-        token: 'OTkzOTYzMjEzNjIyMzUzOTIw.GXresS.riTGJzuNF-L5T7dCnzF_zwInG5wsqaFqLkUvBg',
+        token: '',
         playing: 'OPA BÃO',
         global: true,
     },
