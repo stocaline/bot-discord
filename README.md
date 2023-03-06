@@ -1,4 +1,4 @@
-# bot-discord
+<h1 align="center">Bot Discord</h1>
 
 ### Descrição
 
